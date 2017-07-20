@@ -1,6 +1,7 @@
 {
     "name": "laravelboot/demo",    
     "license": "Apache-2.0",
+	"description":"demo",
     "type": "laravelboot-module",
     "autoload": {
         "psr-4": {
