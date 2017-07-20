@@ -4,8 +4,9 @@ namespace Module\Demo;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Events\Dispatcher;
 use LaravelBoot\Foundation\Module\Abstracts\Module;
+use LaravelBoot\Foundation\Module\Abstracts\ModuleInterface;
 
-class ModuleServiceProvider extends Module
+class ModuleServiceProvider extends Module implements ModuleInterface
 {
 	public function __construct(Application $app)
     {
