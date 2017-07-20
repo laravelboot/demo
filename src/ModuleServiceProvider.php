@@ -17,6 +17,10 @@ class ModuleServiceProvider extends Module implements ModuleInterface
     {
 	}
 	
+	public function register()
+	{		
+	}
+	
 	/**
      * Description of module
      *
